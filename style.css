@@ -1,0 +1,27 @@
+
+nav ul li {list-style: none;}
+nav ul li a{ 
+    margin: 5px 10px;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+nav ul li ul{
+    background-color: blue;
+    position:absolute;
+    padding-left: 0;
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+/*  nave ul li ar  biture hover krle jodi ul name kew thake taile take tar diaplay:block kre de  */
+}
+nav ul li ul li a{
+    line-height: 30px;
+
+}
+nav ul li a:hover{
+    background-color: rgb(4, 255, 0);
+}
+nav >ul{
+    display: flex;
+}
